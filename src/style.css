@@ -1,1 +1,18 @@
 /* styles go here */
+body {
+  margin: 0;
+}
+
+fieldset {
+  margin: 10px 10px 20px;
+}
+
+.form-field:not(:last-of-type),
+div.form-field {
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  margin-left: 10px;
+}
